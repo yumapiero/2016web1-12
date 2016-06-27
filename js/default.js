@@ -52,7 +52,7 @@ for(key in player){
   };
 
 /*FIZZBUZZ問題*/
-for(var i = 1; i < 300; i++){
+for(var i = 1; i < 301; i++){
   var li = document.createElement('li');
   if( i % 15 == 0){
     li.textContent = 'FizzBuzz';
