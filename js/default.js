@@ -5,6 +5,7 @@ for(var i = 1; i < 10; i++){
   document.getElementById('list').appendChild(li);
 }
 
+
 /*while*/
 var HP=100;
 while(0 < HP){
@@ -16,9 +17,11 @@ while(0 < HP){
   document.getElementById('while').appendChild(li);
 }
 
+
 var include_tax = function(price){
   return Math.floor(price + 0.08 * price);
 }
+
 
 for(var i = 1; i < 10; i++){
   var li = document.createElement('li');
@@ -27,6 +30,7 @@ for(var i = 1; i < 10; i++){
   document.getElementById('price').appendChild(li);
 }
 
+
 var constellatio = ['牡羊座','牡牛座','双子座','蟹座','獅子座','乙女座','天秤座','蠍座','射手座','山羊座','水瓶座','魚座'];
 for(i in constellatio){
   var li = document.createElement('li');
@@ -34,6 +38,7 @@ for(i in constellatio){
   document.getElementById('array').appendChild(li);
 }
 
+/*構造体*/
 var player = {name:'ピエロ', age:20, blood:'O'};
 for(key in player){
   var li = document.createElement('li');
@@ -46,7 +51,8 @@ for(key in player){
     return false;
   };
 
-for(var i = 1; i < 100; i++){
+/*FIZZBUZZ問題*/
+for(var i = 1; i < 300; i++){
   var li = document.createElement('li');
   if( i % 15 == 0){
     li.textContent = 'FizzBuzz';
